@@ -1,0 +1,17 @@
+.caleb{
+    min-height: 100vh;
+    background: linear-gradient(45deg, blue 30%, fuchsia 30%, fuchsia 60%,khaki 60%);
+}
+
+.caleb h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding-block: 1em;
+    text-align: center;
+}
+
+.sam{
+    border: 15px solid blue;
+    width: 60%;
+    margin: auto;
+}
