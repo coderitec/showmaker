@@ -14,6 +14,12 @@ module.exports = {
           port: '',
           pathname: '/**',
         },
+        {
+          protocol: 'https',
+          hostname: 'robohash.org',
+          port: '',
+          pathname: '/**',
+        },
       ],
     },
   }

@@ -1,9 +1,10 @@
 import Link from "next/link";
+import MobileNav from "./MobileNav";
 
 export default function Navbar() {
   return (
-    <nav>
-        <ul className="flex justify-around capitalize items-center h-36 bg-slate-950 text-white text-lg">
+    <nav className=" bg-slate-950 text-white text-lg">
+        <ul className="md:flex h-36 hidden justify-around items-center ">
             <Link href={'/'}>
                 <li>home</li>
             </Link>
@@ -16,10 +17,16 @@ export default function Navbar() {
                 <li>contact</li>
             </Link>
 
+            <Link href={'/movies'}>
+                <li>movies</li>
+            </Link>
+            
             <Link href={'/help'}>
                 <li>help</li>
             </Link>
         </ul>
+
+        <MobileNav />
     </nav>
   )
 }
