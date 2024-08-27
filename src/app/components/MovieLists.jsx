@@ -8,7 +8,7 @@ export default function MovieLists() {
     const cards = movies.sort((x,y) =>y.rating - x.rating).map((card,index) => (
         <section key={index}>
             <Link href={`/movies/${card.title.split(' ').join('-')}`} title={card.title} className='cursor-pointer'>
-           <MovieCard title={card.title} type={card.type} rat ={card.rating} img={card.image}/>
+           <MovieCard title={card.title} type={card.type} rat ={card.rating} img={card.category}/>
             </Link>
         </section>
     )).slice(0,3)

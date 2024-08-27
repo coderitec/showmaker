@@ -11,13 +11,15 @@ export default function MoviePage() {
   function filterSearch(e){
     setSearchMovie(e.target.value)
   }
+
   const filterLists = movies.filter(movie => movie.title.toLowerCase().includes(searchMovie.toLowerCase()) || movie.category.toLowerCase().includes(searchMovie.toLowerCase()) )
+  
   const cards = filterLists.length == 0 ?(
     <h1>Sorry, search item does not exist</h1>
   ) : filterLists.map((card,index) => (
     <section key={index}>
         <Link href={`/movies/${card.title.split(' ').join('-')}`} title={card.title} className='cursor-pointer'>
-       <MovieCard title={card.title} type={card.type} rat ={card.rating} img={card.image}/>
+       <MovieCard title={card.title} type={card.type} rat ={card.rating} img={card.category}/>
         </Link>
     </section>
 ))
