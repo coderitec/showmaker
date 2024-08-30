@@ -4,7 +4,7 @@ export const movies = [
     image: "TheShawshankRedemption.jpg",
     epilogue: "Andy Dufresne, after enduring decades of wrongful imprisonment, escapes from Shawshank prison with the help of his friend Red. He sets out for a new life in Zihuatanejo, Mexico, a place he had dreamt of while incarcerated. There, he reunites with Red, who is paroled and eventually joins Andy in his peaceful haven.",
     category: "Drama",
-    rating: 5,
+    rating: 4.5,
     kind: "R", // Changed to "R" based on movie rating
     cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
     type: "Feature Film"
@@ -14,7 +14,7 @@ export const movies = [
     image: "TheGodfather.png",
     epilogue: "Michael Corleone emerges as the new Don of the Corleone family after his father's assassination. He ruthlessly eliminates his rivals and consolidates his power, transforming from a reluctant participant to a cold-blooded leader. However, the price of his ascension is high, leaving him isolated and haunted by the violence he has unleashed.",
     category: "Crime",
-    rating: 7,
+    rating: 3.5,
     kind: "R", // Changed to "R" based on movie rating
     cast: ["Marlon Brando", "Al Pacino", "James Caan"],
     type: "Feature Film"
@@ -24,7 +24,7 @@ export const movies = [
     image: "TheDarkKnight.jpg",
     epilogue: "Batman, facing the terrifying Joker's reign of chaos, must make a difficult choice to protect Gotham City. He ultimately sacrifices himself by taking the blame for Harvey Dent's crimes, thus preserving Dent's heroic image and leaving the Joker to face justice. The city mourns its fallen hero, but finds hope in the enduring legacy of Batman's selflessness.",
     category: "Action",
-    rating: 7,
+    rating: 3.5,
     kind: "PG-13", // Changed to "PG-13" based on movie rating
     cast: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
     type: "Feature Film"
@@ -154,7 +154,7 @@ export const movies = [
     image: "SchindlersList.jpg",
     epilogue: "Oskar Schindler, a German businessman, becomes a reluctant hero by saving the lives of over 1,100 Jews during the Holocaust. The film portrays the horrors of the Holocaust and the power of individual courage and compassion in the face of unimaginable evil.",
     category: "Drama",
-    rating: 5,
+    rating: 2.5,
     kind: "R",
     cast: ["Liam Neeson", "Ben Kingsley", "Ralph Fiennes"],
     type: "Feature Film"
@@ -184,7 +184,7 @@ export const movies = [
     image: "12AngryMen.jpg",
     epilogue: "Twelve jurors are tasked with deliberating the fate of a young man accused of murder. As they debate the evidence and grapple with their own prejudices, one man's relentless pursuit of the truth forces them to confront their own biases and ultimately deliver a just verdict.",
     category: "Drama",
-    rating: 5,
+    rating: 3.5,
     kind: "PG",
     cast: ["Henry Fonda", "Martin Balsam", "Jack Klugman"],
     type: "Feature Film"

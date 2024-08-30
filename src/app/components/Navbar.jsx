@@ -1,7 +1,11 @@
+"use client"
 import Link from "next/link";
 import MobileNav from "./MobileNav";
+import { useContext } from "react";
+import { SidebarContext } from "../providers";
 
 export default function Navbar() {
+    const {val} = useContext(SidebarContext)
   return (
     <nav className=" bg-slate-950 text-white text-lg">
         <ul className="md:flex h-36 hidden justify-around items-center ">
@@ -23,6 +27,9 @@ export default function Navbar() {
             
             <Link href={'/help'}>
                 <li>help</li>
+            </Link>
+            <Link href={'/wishes'}>
+                <li>{val}</li>
             </Link>
         </ul>
 
