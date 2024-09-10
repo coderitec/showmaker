@@ -190,3 +190,26 @@ export const movies = [
     type: "Feature Film"
   },
 ];
+
+export const stuffs = [
+  {
+    id:'1',
+    title: 'flowers',
+    image: '/stuff/img1.jpg'
+  },
+  {
+    id:'2',
+    title: 'tech bro',
+    image: '/stuff/img2.jpg'
+  },
+  {
+    id:'3',
+    title: 'mountain',
+    image: '/stuff/img3.jpg'
+  },
+  {
+    id:'4',
+    title: 'trees',
+    image: '/stuff/img4.jpg'
+  },
+]
